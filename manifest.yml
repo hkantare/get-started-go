@@ -3,3 +3,4 @@ applications:
 - name: GetStartedGo
   random-route: true
   memory: 128M
+  health_check_timeout: 30
